@@ -8,8 +8,8 @@ function setup() {
 
 function draw() {
   background(255,255,255);  
-  movingRect.x=world.mousex;
-  movingRect.y=world.mousey;
+  movingRect.x=World.mouseX;
+  movingRect.y=World.mouseY;
 if(movingRect.x-fixedRect.x<fixedRect.width/2+movingRect.width/2 )
   {movingRect.shapeColor="red";
   fixedRect.shapeColor="red";
